@@ -1,6 +1,10 @@
 {
   "name": "pentagonjs",
-  "version": "1.0.2",
+  "description": "⚡️ Easy and Fast Document Generator",
+  "bugs": {
+    "url": "https://github.com/ten-humans/pentagon/issues"
+  },
+  "version": "1.0.4",
   "main": "dist/@pentagon/index.js",
   "license": "MIT",
   "scripts": {
@@ -10,6 +14,10 @@
   },
   "bin": {
     "pentagon": "dist/pentagon/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ten-humans/pentagon.git"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.22",
