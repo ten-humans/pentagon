@@ -1,6 +1,6 @@
 {
-  "name": "pentagon",
-  "version": "1.0.0",
+  "name": "pentagonjs",
+  "version": "1.0.1",
   "main": "dist/@pentagon/index.js",
   "license": "MIT",
   "scripts": {
