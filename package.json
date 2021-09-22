@@ -4,9 +4,14 @@
   "bugs": {
     "url": "https://github.com/ten-humans/pentagon/issues"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/@pentagon/index.js",
   "license": "MIT",
+  "keywords": [
+    "svelte",
+    "ssg",
+    "docs"
+  ],
   "scripts": {
     "start": "yarn build && node dist/pentagon/index",
     "build": "npx tsc",
