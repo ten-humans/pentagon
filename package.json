@@ -1,0 +1,50 @@
+{
+  "name": "pentagon",
+  "version": "1.0.0",
+  "main": "dist/@pentagon/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn build && node dist/pentagon/index",
+    "build": "npx tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "bin": {
+    "pentagon": "dist/pentagon/index.js"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.22",
+    "@types/estree": "^0.0.50",
+    "@types/express": "^4.17.13",
+    "@types/hash-sum": "^1.0.0",
+    "@types/lodash": "^4.14.172",
+    "@types/node": "^16.7.11",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "colors": "^1.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1",
+    "svelte": "^3.42.4"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^9.0.12",
+    "@types/markdown-it": "^12.2.1",
+    "@types/marked": "^3.0.1",
+    "@types/mkdirp": "^1.0.2",
+    "chokidar": "^3.5.2",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "hash-sum": "^2.0.0",
+    "highlight.js": "^11.2.0",
+    "locate-character": "^2.0.5",
+    "lodash": "^4.17.21",
+    "markdown-it": "^12.2.0",
+    "markdown-it-meta": "^0.0.1",
+    "marked": "^3.0.3",
+    "mkdirp": "^1.0.4",
+    "node-sass": "^6.0.1",
+    "sass": "^1.39.0",
+    "typescript": "^4.4.2",
+    "vite": "^2.5.3"
+  }
+}

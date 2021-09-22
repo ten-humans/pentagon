@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "import"],
+  "rules": {
+    "no-empty": "warn",
+    "no-unreachable": "warn",
+    "use-isnan": "warn",
+    "eqeqeq": "warn",
+    "no-alert": "warn",
+    "no-else-return": "warn",
+    "no-multi-spaces": "warn",
+    "no-self-compare": "warn",
+    "no-useless-return": "warn",
+    "no-undef-init": "warn",
+    "no-unused-vars": "warn",
+    "no-use-before-define": "warn",
+    "no-plusplus": "warn",
+    "no-trailing-spaces": "warn",
+    "semi-spacing": "warn"
+  }
+}

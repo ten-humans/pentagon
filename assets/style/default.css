@@ -1,0 +1,141 @@
+:root {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.hljs {
+  white-space: pre;
+  overflow-x: auto;
+  white-space: pre-wrap !important;
+}
+
+.card-feature {
+  width: 45%;
+  margin: 0 2.5% 45px;
+  height: 170px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 1px 4px #b2a9b85d;
+  transition: all ease 0.05s 0s;
+}
+.card-feature:hover {
+  box-shadow: 0 1px 4px #87818a5d;
+  transition: all ease 0.05s 0s;
+}
+.card-content {
+  padding: 25px;
+  font-size: 0.95rem;
+}
+.card-title {
+  font-weight: bold;
+}
+.card-des {
+  margin-top: 15px;
+}
+
+.options li {
+  font-weight: bolder;
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.075rem;
+  transition: all ease 0.25s 0s;
+}
+.options li:hover {
+  color: #c7c7c7 !important ;
+  transition: all ease 0.25s 0s;
+}
+
+.top-li {
+  font-weight: normal;
+}
+.h-sharp {
+  padding-right: 5px;
+  color: #ffffff !important;
+  transition: all ease 0.2s 0s;
+}
+h2:hover .h-sharp {
+  color: #ffb6b6 !important;
+  transition: all ease 0.2s 0s;
+}
+
+h3:hover .h-sharp {
+  color: #ffb6b6 !important;
+  transition: all ease 0.2s 0s;
+}
+h4:hover .h-sharp {
+  color: #ffb6b6 !important;
+  transition: all ease 0.2s 0s;
+}
+/* https://github.com/highlightjs/highlight.js/blob/main/src/styles/atom-one-light.css */
+
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+code.hljs {
+  padding: 3px 5px;
+}
+.hljs {
+  color: #383a42;
+  background: #fafafa;
+}
+.hljs-comment,
+.hljs-quote {
+  color: #a0a1a7;
+  font-style: italic;
+}
+.hljs-doctag,
+.hljs-formula,
+.hljs-keyword {
+  color: #a626a4;
+}
+.hljs-deletion,
+.hljs-name,
+.hljs-section,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #e45649;
+}
+.hljs-literal {
+  color: #0184bb;
+}
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta .hljs-string,
+.hljs-regexp,
+.hljs-string {
+  color: #50a14f;
+}
+.hljs-attr,
+.hljs-number,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-pseudo,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable {
+  color: #986801;
+}
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-symbol,
+.hljs-title {
+  color: #4078f2;
+}
+.hljs-built_in,
+.hljs-class .hljs-title,
+.hljs-title.class_ {
+  color: #c18401;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: 700;
+}
+.hljs-link {
+  text-decoration: underline;
+}
