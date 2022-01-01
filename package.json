@@ -1,10 +1,10 @@
 {
-  "name": "pentagonjs",
+  "name": "@pentagonjs/core",
   "description": "⚡️ Easy and Fast Document Generator",
   "bugs": {
     "url": "https://github.com/ten-humans/pentagon/issues"
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/@pentagon/index.js",
   "license": "MIT",
   "keywords": [
